@@ -1,0 +1,4 @@
+#vagrant ssh-config
+#sudo chmod 777 /etc/ansible/hosts
+#vi /etc/ansible/hosts
+vagrant-machine ansible_hosts=127.0.0.1 ansible_port=2222 ansible_user=vagrant ansible_ssh_private_key_file=/c/User/tky/app/.vagrant/machines/default/virtualbox/private_key
