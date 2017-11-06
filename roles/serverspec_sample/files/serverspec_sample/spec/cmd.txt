@@ -1,0 +1,10 @@
+ansible-palybook -i development site.yml --diff
+
+serverspec-init
+
+mkdir ~/serverspec 
+cd ~/serverspec
+serverspec-init
+
+rake spec
+

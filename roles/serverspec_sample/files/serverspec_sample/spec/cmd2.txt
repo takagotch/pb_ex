@@ -1,0 +1,7 @@
+cd ~/ansible-palybook-sample
+ansible-palybook -i development site.yml
+
+cd /tmp/serverspec_sample
+rake spec
+
+sudo systmctl stop nginx.service
